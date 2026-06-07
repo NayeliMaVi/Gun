@@ -1,0 +1,8 @@
+NasNetMobile GPU test metrics
+class_names: ['arma', 'no_arma']
+gpus: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+accuracy: 0.8887765407562256
+auc: 0.9417533278465271
+loss: 0.2904546856880188
+precision: 0.8625954389572144
+recall: 0.922448992729187

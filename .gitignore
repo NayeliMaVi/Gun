@@ -1,0 +1,23 @@
+# Ignorar todo por defecto
+*
+
+# Permitir este archivo
+!.gitignore
+
+# Permitir carpeta video
+!video/
+!video/**
+
+# Permitir workspace_modelos
+!workspace_modelos/
+!workspace_modelos/**
+
+# Pero NO subir datasets dentro de workspace_modelos
+workspace_modelos/datasets/
+workspace_modelos/datasets/**
+workspace_modelos/dataset*/
+workspace_modelos/dataset*/**
+
+# No subir cachés de Python
+workspace_modelos/**/__pycache__/
+workspace_modelos/**/*.pyc
